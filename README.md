@@ -65,3 +65,9 @@ Agora seu projeto deve estar funcionando corretamente em outra máquina! Lembre-
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portiforio-two.vercel.app)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/evelyn-galhardo/)
+
+## Stack utilizada
+
+**Front-end:** HTML, CSS, JavaScript
+**Back-end:** PHP
+**Banco de dados:** MySQL (pelo xampp)

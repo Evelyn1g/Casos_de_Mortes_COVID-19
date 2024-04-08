@@ -53,4 +53,11 @@ $username = "root"; // nome de usuário
 $password = ""; // senha
 $dbname = "db_covid"; // nome do banco de dados
 ```
+## Passo 7: Executando o Código
 
+1. Com o arquivo index.php aberto no Visual Studio Code, clique com o botão esquerdo sobre ele.
+2. Selecione a opção "Open PHP/HTML/JS in Browser" e escolha seu navegador preferido.
+3. Certifique-se de que o Apache e o MySQL estão ligados no XAMPP.
+4.Se todos os passos foram seguidos corretamente, o código deverá ser executado sem erros.
+
+Agora seu projeto deve estar funcionando corretamente em outra máquina! Lembre-se de fornecer as credenciais de acesso ao MySQL, se aplicável, para quem for utilizar o projeto.

@@ -63,5 +63,5 @@ $dbname = "db_covid"; // nome do banco de dados
 Agora seu projeto deve estar funcionando corretamente em outra máquina! Lembre-se de fornecer as credenciais de acesso ao MySQL, se aplicável, para quem for utilizar o projeto.
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](portiforio-two.vercel.app)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/evelyn-galhardo/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portiforio-two.vercel.app)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/evelyn-galhardo/)

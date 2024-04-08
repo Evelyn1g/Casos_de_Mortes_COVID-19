@@ -2,14 +2,14 @@
 
 ## Passo 1: Instalando o XAMPP e Configurando as Variáveis de Ambiente
 
-1. Instale o XAMPP.
+1. Instale o XAMPP. (https://www.apachefriends.org/pt_br/download.html)
 2. Configure o PHP na variável de ambiente:
    - Acesse as variáveis de ambiente do sistema.
    - Clique em "Path", depois "Novo" e adicione o caminho para o PHP (por padrão: `C:\xampp\php`).
 
 ## Passo 2: Instalando o Visual Studio Code e as Extensões Necessárias
 
-1. Instale o Visual Studio Code.
+1. Instale o Visual Studio Code. (https://code.visualstudio.com/download)
 2. Certifique-se de que está funcionando.
 3. Na seção de extensões (ou pressionando Ctrl+Shift+x), instale as seguintes extensões:
    - Open PHP/HTML/JS In Browser

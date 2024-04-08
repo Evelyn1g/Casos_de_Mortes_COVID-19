@@ -11,11 +11,11 @@ function httpRequest($url) {
 }
 
 // Conexão com o banco de dados MySQL
-$servername = "localhost";
-$username = "root";
-$password = "eBYx8qEBY_5[arrw";
-$dbname = "db_covid";
-
+$servername = "localhost";  //servidor (local)
+$username = "root"; //nome padrão do MySQL
+$password = ""; //senha padrão do MySQL
+$dbname = "db_covid"; //bancoo de dados criado para armazenar o ultimo acesso
+ 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Verificar a conexão

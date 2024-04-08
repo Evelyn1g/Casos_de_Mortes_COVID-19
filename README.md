@@ -1,46 +1,42 @@
-# PASSO A PASSO DE COMO RODAR O CÓDIGO
+# Configurando o Ambiente de Desenvolvimento
 
-1 PASSO: INSTALANDO O XAMPP E CONFIGURANDO A VARIÁVEIS DE AMBIENTE
+## Passo 1: Instalando o XAMPP e Configurando as Variáveis de Ambiente
 
-Instalar o xampp, configurar o php na variável de ambiente. Por padrão o xampp é instalado no disco local pensando nisso, acesse as variáveis de ambiente, clique em path, novo, e coloque o caminho logo após clique em ok. No casso do exemplo padrão seria: C:\xampp\php
+1. Instale o XAMPP.
+2. Configure o PHP na variável de ambiente:
+   - Acesse as variáveis de ambiente do sistema.
+   - Clique em "Path", depois "Novo" e adicione o caminho para o PHP (por padrão: `C:\xampp\php`).
 
-2 PASSO: INSTALANDO O VISUAL STUDIO CODE E AS EXTENSÕES NECESSÁRIAS
+## Passo 2: Instalando o Visual Studio Code e as Extensões Necessárias
 
-Instale e Visual Studio code e certifique que está funcionando. Logo após, execute ele e na parte de extensões (ou clicando em  Ctrl+Shift+x) instale as seguintes extensões: -Open PHP/HTML/JS In Browser -PHP Intelephense 
+1. Instale o Visual Studio Code.
+2. Certifique-se de que está funcionando.
+3. Na seção de extensões (ou pressionando Ctrl+Shift+x), instale as seguintes extensões:
+   - Open PHP/HTML/JS In Browser
+   - PHP Intelephense
 
-PASSO 3: ADICIONANDO A MINHA PASTA NO HTDOCS
+## Passo 3: Adicionando a Pasta no htdocs
 
-Logo após ter finalizado todas essas etapas, copie a minha pasta processo_seletivo (github) acesse a pasta do xampp e procure a pasta chamada htdocs, clique nela, e cole a minha pasta.
+1. Copie a pasta do seu projeto (por exemplo, `processo_seletivo`) do GitHub.
+2. Acesse a pasta do XAMPP e vá para a pasta `htdocs`.
+3. Cole a pasta do seu projeto nesta localização.
 
-PASSO 4: ABRINDO O PAINEL DE CONTROLE DO XAMPP
+## Passo 4: Abrindo o Painel de Controle do XAMPP
 
-Antes de rodar o código, precisa abrir o painel de controle do xampp. Para isso acesse a pasta que foi instalado o xampp e clique 2x em xampp-control. Assim abrirá o painel de controle.
-No serviço Apache, clique em Start, e certifique que quando clicado ele fique verde (isso significa que está funcionando normalmente). Faça o mesmo com o MySQL (certificando que esteja verde)
+1. Abra o Painel de Controle do XAMPP.
+2. Acesse a pasta de instalação do XAMPP e clique duas vezes em `xampp-control.exe`.
+3. No painel de controle, clique em "Start" ao lado de "Apache" e "MySQL" para garantir que ambos estejam em execução (indicado pela cor verde).
 
-PASSO 5: CONFIGURANDO O MYSQL
+## Passo 5: Configurando o MySQL
 
-Logo quando der start no MySQL, clique na seção dele, em Adim. Caso não tenha configurado por padrão o nome de usuario sera root e não haverá senha (essa informação será importante na hora de colocar o código). Adicione um novo banco de dados com o nome db_covid e com ele aberto acesse a aba SQL e cole o seguinte código:
+1. Após iniciar o MySQL, clique na seção correspondente e em "Admin".
+2. Use as credenciais padrão (usuário: `root`, sem senha).
+3. Adicione um novo banco de dados chamado `db_covid`.
+4. Na aba SQL, cole e execute o seguinte código:
 
-    CREATE TABLE acessos (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        data_hora DATETIME NOT NULL,
-        pais VARCHAR(50) NOT NULL
-    );
-
-
-Logo após clique em executar
-
-PASSO 6: EDITANDO O INDEX.PHP
-
-No passo 3, colocamos a pasta processo_seletivo no htdocs do xampp. Agora, vamos executar essa pasta no Visual Studeo Code. Assim que ela for aberta nele, iremos no arquivo index.php e seguimos o seguintes passos:
-
-// Conexão com o banco de dados MySQL
-
-$servername = "localhost";    --> Nessa aba, colocamos o servidor. Por padrão é localhost, caso não tenha alterado
-$username = "root"; --> aqui colocamos o user name, do MySQL, caso seja a primeira vez esse é o padrão também. Caso tenha outro username, só modficar
-$password = ""; --> Aqui é a senha do banco de dados, por padrão vem sem senha. Caso tenha uma senha só modificar
-$dbname = "db_covid"; --> Aqui é o banco de dados que criamos, caso não tenha colocado o nome que eu disse no passo 5, apenas trocar.
-
-PASSO 7: EXECUTANDO O CODIGO
-
-Ainda com o arquivo aberto no visual studeo code, clicamos no index.php com o botão esquerdo e ira aparecer a opção Open PHP/HTML/JS in Browser clique nela e escolha seu navegador de preferência. Caso tenha feito o passo a passo direitinho, irá estar rodando o código. Importante, o Apache e o MySQL deve estar ligado pelo xampp para o código funcionar sem erro.
+```sql
+CREATE TABLE acessos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data_hora DATETIME NOT NULL,
+    pais VARCHAR(50) NOT NULL
+);

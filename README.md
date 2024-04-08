@@ -34,6 +34,17 @@
 3. Adicione um novo banco de dados chamado `db_covid`.
 4. Na aba SQL, cole e execute o seguinte código:
 
+## Passo 6: Configurando o MySQL
+
+1. Abra a pasta do seu projeto `(processo_seletivo)` no Visual Studio Code.
+2. No arquivo index.php, ajuste as configurações de conexão com o banco de dados:
+
+// Conexão com o banco de dados MySQL
+$servername = "localhost"; // servidor
+$username = "root"; // nome de usuário
+$password = ""; // senha
+$dbname = "db_covid"; // nome do banco de dados
+
 ```sql
 CREATE TABLE acessos (
     id INT AUTO_INCREMENT PRIMARY KEY,

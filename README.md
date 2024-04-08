@@ -17,7 +17,7 @@
 
 ## Passo 3: Adicionando a Pasta no htdocs
 
-1. Copie a pasta do seu projeto (por exemplo, `processo_seletivo`) do GitHub.
+1. Copie a pasta do meu projeto (por exemplo, `processo_seletivo`) localizada nesse repositório GitHub (ou clone).
 2. Acesse a pasta do XAMPP e vá para a pasta `htdocs`.
 3. Cole a pasta do seu projeto nesta localização.
 

@@ -69,5 +69,11 @@ Agora seu projeto deve estar funcionando corretamente em outra máquina! Lembre-
 ## Stack utilizada
 
 **Front-end:** HTML, CSS, JavaScript
+
 **Back-end:** PHP
+
 **Banco de dados:** MySQL (pelo xampp)
+
+## Feedback
+
+Se você tiver algum feedback, por favor me deixe saber por meio de usuarioevelyn.galhardo@gmail.com
